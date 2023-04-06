@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede58e8b-cdd5-4055-bbe8-61d710b65f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/LasCrecidasDelNilo_662.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/LasCrecidasDelNilo_662_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/LasCrecidasDelNilo_662_TLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/p662.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/p662b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/p662c.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aceptaElReto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P141_ParentesisBalanceados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P151_EsMatrizIdentidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P168_LaPiezaPerdida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P633_ArcaDeNoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P636_DivisionExacta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P658_LaAlturaDeLaPiramide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P659_NumerosJeroglificos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P660_Champollion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P661_LosTesorosDeLaTumbaDeTutankamon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P663_ContandoDesdeElCero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P664_Galibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P664_Galibo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P665_SemVer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P660_Champollion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P660_Champollion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Deiv/IdeaProjects/aceptaElReto/P662_LasCrecidasDelNilo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Deiv/IdeaProjects/aceptaElReto/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Deiv\IdeaProjects\aceptaElReto\P662_LasCrecidasDelNilo" />
       <recent name="C:\Users\Deiv\IdeaProjects\aceptaElReto\src" />
+      <recent name="C:\Users\Deiv\IdeaProjects\aceptaElReto\P662_LasCrecidasDelNilo" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -86,6 +69,10 @@
       <option name="presentableId" value="Default" />
       <updated>1680642825122</updated>
       <workItem from="1680642826690" duration="2780000" />
+      <workItem from="1680798514332" duration="4498000" />
+      <workItem from="1680803271553" duration="2066000" />
+      <workItem from="1680805377294" duration="7000" />
+      <workItem from="1680805753029" duration="819000" />
     </task>
     <servers />
   </component>

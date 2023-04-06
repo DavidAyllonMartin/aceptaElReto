@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.HashSet;
 
 public class P660_Champollion {
 
@@ -6,12 +6,12 @@ public class P660_Champollion {
 
     public static void casoDePrueba() {
 
-        in.nextLine();
-        String frase = in.nextLine().toLowerCase();
-
-        String[] palabras = frase.split(" ");
-
-
+        String[] palabras = in.nextLine().toLowerCase().split(" ");
+        HashSet<String> silabas = new HashSet<>();
+        for (String str : palabras) {
+            procesarPalabra(str, silabas);
+        }
+        System.out.println(silabas.size());
     }
 
     public static void main(String[] args) {
@@ -19,25 +19,42 @@ public class P660_Champollion {
         in = new java.util.Scanner(System.in);
 
         int numCasos = in.nextInt();
+        in.nextLine();
         for (int i = 0; i < numCasos; i++)
             casoDePrueba();
     }
 
-    public void procesarPalabra(String palabra, ArrayList<String> silabas) {
+    public static void procesarPalabra(String palabra, HashSet<String> silabas) {
         char[] caracteres = palabra.toCharArray();
-        for (int i = 0; i < caracteres.length; ) {
-
-            if (i == 0 && esVocal(palabra.charAt(0))) {
-                silabas.add(Character.toString(palabra.charAt(0)));
-                i++;
+        int letrasRestantes = caracteres.length;
+        int p = 0;
+        if (esVocal(caracteres[0])){
+            silabas.add(String.valueOf(caracteres[0]));
+            p++;
+            letrasRestantes--;
+        }
+        while(letrasRestantes > 0){
+            if (letrasRestantes == 3){
+                silabas.add(String.valueOf(caracteres[p]) + caracteres[p + 1] + caracteres[p + 2]);
+                break;
+            }else if (letrasRestantes == 2){
+                silabas.add(String.valueOf(caracteres[p]) + caracteres[p + 1]);
+                break;
+            }else {
+                if (!esVocal(caracteres[p+2]) && !esVocal(caracteres[p+3])){
+                    silabas.add(String.valueOf(caracteres[p]) + caracteres[p + 1] + caracteres[p + 2]);
+                    letrasRestantes -= 3;
+                    p +=3;
+                }else {
+                    silabas.add(String.valueOf(caracteres[p]) + caracteres[p + 1]);
+                    letrasRestantes -= 2;
+                    p +=2;
+                }
             }
-
-
         }
     }
 
-    public boolean esVocal(char c) {
-        String vocales = "aeiou";
-        return vocales.contains(Character.toString(c));
+    public static boolean esVocal(char c) {
+        return c=='a' || c=='e'|| c=='i' || c=='o' || c=='u';
     }
 }
