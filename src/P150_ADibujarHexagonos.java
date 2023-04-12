@@ -11,22 +11,30 @@ public class P150_ADibujarHexagonos {
             int filas = longitud * 2 - 1;
             int espaciosBlanco = longitud - 1;
             int caracteres = longitud;
-            StringBuilder fila = new StringBuilder();
             for (int i = 0; i < longitud; i++) {
-                fila.append(" ".repeat(Math.max(0, espaciosBlanco))).append(str.repeat(Math.max(0, caracteres)));
-                fila.append("\n");
+                for (int j = 0; j < espaciosBlanco; j++) {
+                    System.out.print(" ");
+                }
+                for (int j = 0; j < caracteres; j++) {
+                    System.out.print(str);
+                }
+                System.out.println();
                 espaciosBlanco--;
                 caracteres += 2;
             }
             espaciosBlanco += 2;
             caracteres -= 4;
             for (int i = longitud; i < filas ; i++) {
-                fila.append(" ".repeat(Math.max(0, espaciosBlanco))).append(str.repeat(Math.max(0, caracteres)));
-                fila.append("\n");
+                for (int j = 0; j < espaciosBlanco; j++) {
+                    System.out.print(" ");
+                }
+                for (int j = 0; j < caracteres; j++) {
+                    System.out.print(str);
+                }
+                System.out.println();
                 espaciosBlanco++;
                 caracteres -= 2;
             }
-            System.out.println(fila);
             return true;
         }
     } // casoDePrueba
