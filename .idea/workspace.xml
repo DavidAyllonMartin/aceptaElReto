@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede58e8b-cdd5-4055-bbe8-61d710b65f6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/P150_ADibujarHexagonos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P365_EnLaColaDePapaNoel.java" afterDir="false" />
+    <list default="true" id="ede58e8b-cdd5-4055-bbe8-61d710b65f6b" name="Changes" comment="P150 y P365">
+      <change afterPath="$PROJECT_DIR$/src/P143_Tortitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P507_Tandem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,14 @@
       <workItem from="1680805377294" duration="7000" />
       <workItem from="1680805753029" duration="819000" />
     </task>
+    <task id="LOCAL-00001" summary="P150 y P365">
+      <created>1681298456509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681298456509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +101,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="P150 y P365" />
+    <option name="LAST_COMMIT_MESSAGE" value="P150 y P365" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P507_Tandem.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P143_Tortitas.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
