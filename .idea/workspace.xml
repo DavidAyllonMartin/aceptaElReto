@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede58e8b-cdd5-4055-bbe8-61d710b65f6b" name="Changes" comment="P150 y P365">
-      <change afterPath="$PROJECT_DIR$/src/calentamientoNavideño2022/P615_LaPulga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calentamientoNavideño2022/P616_PicPocPong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calentamientoNavideño2022/P617_SpaceInvaders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P683_Termoclastismo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P708_ResolviendoEncrucijadas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calentamientoNavidad2022/P618_BuscandoElNivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calentamientoNavidad2022/P619_PantallasDeCarga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calentamientoNavidad2022/P619_PantallasDeCargaHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calentamientoNavidad2022/P620.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P662_LasCrecidasDelNilo/p662c.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p662c.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P636_DivisionExacta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P636_DivisionExacta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,40 +39,49 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
   <component name="ProjectId" id="2NyifJ2BMAE0Aa8qLBTdQtVTrF8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Deiv/IdeaProjects/aceptaElReto/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Deiv/IdeaProjects/aceptaElReto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Deiv\IdeaProjects\aceptaElReto\src" />
       <recent name="C:\Users\Deiv\IdeaProjects\aceptaElReto\P662_LasCrecidasDelNilo" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="calentamientoNavidad2022" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calentamientoNavidad2022.P620" />
+      <module name="aceptaElReto" />
+      <option name="PROGRAM_PARAMETERS" value="10 4 7 7 3 3 10 3 4 7 7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +96,8 @@
       <workItem from="1680803271553" duration="2066000" />
       <workItem from="1680805377294" duration="7000" />
       <workItem from="1680805753029" duration="819000" />
-      <workItem from="1702452828983" duration="11351000" />
+      <workItem from="1702510841804" duration="4375000" />
+      <workItem from="1702518426280" duration="6040000" />
     </task>
     <task id="LOCAL-00001" summary="P150 y P365">
       <created>1681298456509</created>
@@ -125,6 +139,26 @@
           <url>file://$PROJECT_DIR$/src/P143_Tortitas.java</url>
           <line>17</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/calentamientoNavidad2022/P618_BuscandoElNivel.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P683_Termoclastismo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/P683_Termoclastismo.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/calentamientoNavidad2022/P620.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

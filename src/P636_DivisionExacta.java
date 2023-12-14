@@ -8,10 +8,14 @@ public class P636_DivisionExacta {
         if (a == 0 && b == 0)
             return false;
         else {
+            
 
-            double resultado = a / b;
-            String resultadoString = String.valueOf(resultado);
+        /*
+            double resultado = (double) a / b;
+            String resultadoString = String.valueOf(resultado).substring(2);
+            System.out.println(resultadoString);
 
+         */
             return true;
         }
     } // casoDePrueba
