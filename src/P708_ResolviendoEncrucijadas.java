@@ -14,7 +14,7 @@ public class P708_ResolviendoEncrucijadas {
             for (int i = 3; i < 10000010; i+=3) {
                 int sd = sumaDigitos(i);
 
-                bw.write(i+" : "+sd);
+                bw.write(i/3+" : "+sd);
                 bw.newLine();
             }
 
