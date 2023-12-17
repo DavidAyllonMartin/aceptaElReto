@@ -1,3 +1,5 @@
+package programmame._2023.regional.madrid;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class P681_LaEscaleraDeAlba {
                 piezas[i] = in.nextInt();
             }
             Arrays.sort(piezas);
-            int suma = 0;
+            long suma = 0;
             int maxPiezasPosibles = piezas[piezas.length-1];
             for (int i = numeroColores - 1; i >= 0; i--) {
                 int piezasNivel = Math.min(piezas[i], maxPiezasPosibles);
@@ -35,5 +37,3 @@ public class P681_LaEscaleraDeAlba {
         while (casoDePrueba());
     }
 }
-
-

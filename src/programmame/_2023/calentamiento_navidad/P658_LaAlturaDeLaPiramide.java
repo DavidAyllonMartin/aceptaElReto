@@ -1,3 +1,5 @@
+package programmame._2023.calentamiento_navidad;
+
 public class P658_LaAlturaDeLaPiramide {
 
     static java.util.Scanner in;

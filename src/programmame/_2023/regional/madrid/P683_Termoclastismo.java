@@ -1,3 +1,5 @@
+package programmame._2023.regional.madrid;
+
 import java.util.Scanner;
 
 public class P683_Termoclastismo {

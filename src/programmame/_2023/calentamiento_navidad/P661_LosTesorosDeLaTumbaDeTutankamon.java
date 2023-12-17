@@ -1,3 +1,5 @@
+package programmame._2023.calentamiento_navidad;
+
 import java.util.Arrays;
 
 public class P661_LosTesorosDeLaTumbaDeTutankamon {

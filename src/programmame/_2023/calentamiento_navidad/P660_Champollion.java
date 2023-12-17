@@ -1,3 +1,5 @@
+package programmame._2023.calentamiento_navidad;
+
 import java.util.HashSet;
 
 public class P660_Champollion {

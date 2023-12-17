@@ -1,4 +1,4 @@
-package calentamientoNavidad2022;
+package programmame._2022.calentamiento_navidad;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,11 +1,11 @@
-package calentamientoNavidad2022;
+package programmame._2022.calentamiento_navidad;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashSet;
 
-public class P619_PantallasDeCarga {
+public class P619_PantallasDeCargaHashSet {
     static BufferedReader in;
 
     public static boolean casoDePrueba() throws IOException {
@@ -15,30 +15,32 @@ public class P619_PantallasDeCarga {
         int alto = Integer.parseInt(strings[1]);
 
         if (alto == 0 || ancho == 0)
-            return false;
+        return false;
         else {
-            char[][] imagen = new char[alto][ancho];
-            for (int i = 0; i < alto; i++) {
-                imagen[i] = in.readLine().toCharArray();
+            HashSet[] hashSets = new HashSet[ancho / 8];
+            for (int i = 0; i < ancho / 8; i++) {
+                hashSets[i] = new HashSet<Character>();
             }
-
-            HashSet<Character> pixeles = new HashSet<>();
             for (int i = 0; i < alto / 8; i++) {
-                for (int j = 0; j < ancho / 8; j++) {
-                    for (int k = (i * 8); k < 8 + (i*8); k++) {
-                        for (int l = (j * 8); l < 8+(j*8); l++) {
-                            pixeles.add(imagen[k][l]);
+                for (int j = 0; j < 8; j++) {
+                    char[] pixeles = in.readLine().toCharArray();
+                    int pos = 0;
+                    for (int k = 0; k < pixeles.length; k++) {
+                        hashSets[pos].add(pixeles[k]);
+                        if ((k+1)%8 == 0){
+                            pos++;
                         }
                     }
-                    if (pixeles.size() > 2){
+                }
+                for (HashSet hashSet : hashSets){
+                    if (hashSet.size() > 2){
                         System.out.println("NO");
                         return true;
-                    }else{
-                        pixeles.clear();
                     }
-
+                    hashSet.clear();
                 }
             }
+
             System.out.println("SI");
             return true;
         }

@@ -1,3 +1,5 @@
+package programmame._2023.calentamiento_navidad;
+
 public class P659_NumerosJeroglificos {
 
     static java.util.Scanner in;
